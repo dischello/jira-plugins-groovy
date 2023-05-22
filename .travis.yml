@@ -1,7 +1,7 @@
 matrix:
   include:
     - language: java
-      jdk: oraclejdk8
+      jdk: oraclejdk17
       cache:
         yarn: true
         directories:
