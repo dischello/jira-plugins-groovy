@@ -22,9 +22,3 @@ matrix:
         - yarn install --frozen-lockfile
         - yarn build-prod
         - yarn flow check --max-warnings=0
-notifications:
-  email:
-    recipients:
-      - a.belostotskiy@corp.mail.ru
-    on_success: always
-    on_failure: always
